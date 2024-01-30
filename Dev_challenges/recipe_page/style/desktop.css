@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+@media screen and (min-width:768px) {
+
+    main{
+        width: 700px;
+        height: max-content;
+    }
+
+    section{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .info_time{
+        width: 110px;
+        height: max-content;
+        box-shadow: 1px 1px 2px 3px lightgrey;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .clock_block{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .clock{
+        margin-bottom: 10px;
+    }
+
+    .Ingredients_block{
+        width: 400px;
+    }
+
+    .Ingredients_block h2{
+        margin-top: 0px;
+    }
+
+    .clock_icon{
+        margin-right: 10px;
+    }
+    
+}

@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    background-color: #8F7C56;
+    /* background-color: #F53B38; */
+    border-bottom: 4px solid #ebb64c;
+
+}
+
+.link_sub{
+    border-bottom: 2px solid white;
+       
+}
+
+h1{
+    font-family: 'MonteCarlo', cursive;
+    color: white;
+
+}
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover{
+    color: #ebb64c;
+
+}
+
+li{
+    list-style: none;
+   
+}
+
+.reserva{
+    color: white;
+}
+
+/* 
+---------------------------------- */
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bloco{
+width:450px;
+height: 150px;
+background-color: white;
+border: 3px solid  #b78e3b;
+border-radius: 15px;
+display: flex;
+flex-direction: row;
+column-gap: 10px;
+margin-bottom: 20px;
+}
+
+.img_food{
+    width: 100px;
+    border-radius: 10px 0px 0px 10px;
+    height: 100%;
+    width: 180px;
+}
+
+.bloco h2{
+    color: #b78e3b;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    text-align: center;
+    transition: 0.50s;
+    
+}
+
+.btn:hover{
+    background-color: #b78e3b;
+    transition: 0.50s;
+}
+
+
+/* -------------------------- */
+
+footer{
+    /* background-color: #8F7C56; */
+    background-color:  #8F7C56;
+
+    width: 100%;
+    padding: 30px;
+    border-top: 4px solid #ebb64c;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email{
+    color: white;
+}
+
+
+.icones{
+    color: white;
+    cursor: pointer;
+}
+
+.icones:hover{
+    
+}
+
+.icones a{
+    color: white;
+}
+
+i:hover{
+    color: #ebb64c;
+    transition: 0.30s;
+}

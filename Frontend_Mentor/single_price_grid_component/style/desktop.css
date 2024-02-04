@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+
+@media screen and (min-width:768px) {
+
+    body{
+        box-sizing: border-box;
+    }
+
+    .box_1{
+        box-sizing: border-box;
+    }
+    main{
+        width:700px;        
+    }
+
+    .boxes{
+        display: flex;
+        flex-direction: row;
+    }
+    
+
+    .box_2{
+        box-sizing: border-box;
+        height: 220px;
+        border-radius: 0px 0px 0px 10px;
+    }
+
+   
+
+    .box_3{
+        box-sizing: border-box;
+        height: 220px;
+        border-radius: 0px 0px 10px 0px;
+    }
+
+    ul{
+        margin: 0px;
+    }
+}

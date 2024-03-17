@@ -1,0 +1,394 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    margin: 0px;
+}
+
+.img_logo{
+    width: 100px;
+}
+
+nav{
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+li{
+    list-style: none;
+    
+}
+
+.link_top{
+    color:blue;
+}
+
+.link_top:hover{
+    color:rgb(5, 5, 87);
+}
+/* 
+-----------------------section1----------------------------- */
+
+.block_1{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    color: hsl(243, 87%, 12%);
+}
+
+
+.img_1{
+    width: 250px;
+    height: 200px;
+}
+
+.titulo_1{
+    width: 290px;
+}
+
+.titulo_1 p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+h1{
+    text-align: center;
+    width: 300px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 30px;
+}
+
+.block_2{
+    text-align: center;
+}
+
+.campos{
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+form{
+    border: 1px solid black;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+}
+/* 
+------------------------------------- */
+
+.block_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: hsl(240, 75%, 98%); */
+    background-image: url("../images/bg-curve-desktop.svg");
+    background: hsl(240, 75%, 98%);
+    /* background-size: cover; */
+    /* hsl(240, 75%, 98%) */
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.img_2{
+    width: 250px;
+    height: 200px;
+}
+
+.card_info{
+    width: 300px;
+    height: max-content;
+    background-color: white;
+    padding: 19px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 1px black;
+    color: hsl(243, 87%, 12%);
+}
+
+.img_perfil{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.perfil_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+
+.simbol{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.info_kyle{
+    text-align: left;
+   
+}
+
+.info_kyle h3{
+    margin: 0px;
+}
+
+.info_kyle p{
+    font-size: 12px;
+    margin: 0px;
+}
+
+.text{
+    text-align: center;
+    color: hsl(238, 22%, 44%);
+}
+
+.card_text{
+    font-size: 12.5px;
+}
+
+.card_info{
+ text-align: left;
+
+}
+
+h2{
+    font-size: 18px;
+}
+
+.block_2_part_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    width: 90%;
+}
+
+.block_2_part_2 h2{
+    color: hsl(243, 87%, 12%);
+}
+
+.block_2_part_2 
+
+.link_meio{
+    color: rgb(28, 143, 28);
+    text-decoration: underline;
+}
+
+.link_meio:hover{
+    color: rgb(77, 202, 77);
+}
+/* 
+---------------------------- */
+
+.above_footer{
+    background-color: hsl(238, 22%, 44%);
+    padding: 40px;
+}
+
+.above_footer_text{
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.above_footer_text h2{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.above_footer_text p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+form{
+    margin-bottom: 10px;
+    
+}
+
+input{
+    border-radius: 2px;
+    border: none;
+}
+
+button{
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.582);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(224, 84%, 66%);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+/* 
+-------------------------------------------- */
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+}
+
+
+.icone_2{
+    filter: invert(100%);
+}
+
+/* i{
+    color: white;
+    border: 1px solid white;
+    border-radius: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+   
+} */
+
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    width: 30px;
+    height: 30px;
+    /* padding: 10px; */
+    /* box-sizing: border-box; */
+    /* width: 30px;
+    height: 30px; */
+}
+
+ .link:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(116, 114, 114);
+    border-radius: 50%;
+    color: rgb(116, 114, 114);
+    width: 30px;
+    height: 30px;
+    transition: 0.55s;
+    /* padding: 10px; */
+    /* box-sizing: border-box; */
+    /* width: 30px;
+    height: 30px; */
+} 
+
+
+.icones:hover{
+    color: rgb(116, 114, 114);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 10px;
+    
+}
+
+/* .icones i:hover{
+    color: red;
+}
+
+.link :hover{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+} */
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.lista{
+    color: white;
+}
+
+.lista a:hover{
+    color: rgb(136, 134, 134);
+}
+
+li{
+    margin-top: 10px;
+    
+}
+
+.fylo_contact{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    column-gap: 10px;
+}

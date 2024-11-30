@@ -1,0 +1,714 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.top{
+    width: 100%;
+    height: 800px;
+    background-image: url("../imagens/topo-pexels-zekai-zhu-11827007.jpg");
+    background-size: cover;
+   
+}
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    /* height: 80px; */
+    /* background-color: rgba(0, 0, 0, 0.449); */
+    background-color: rgba(235, 108, 108, 0.472);
+}
+
+#burguer{
+    cursor: pointer;
+    display: none;
+    transition: all 0.5s;
+}
+
+#burguer:hover{
+    color: white;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 10px;
+    width: 100%;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: rgb(226, 4, 4);
+    transition: 0.4s;
+}
+
+li{
+    list-style: none;
+}
+
+.formularios{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 210px;
+    
+}
+
+.formularios h1{
+    color: white;
+}
+
+.formularios p{
+    color: white;
+}
+
+.formularios_1{
+    width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-top: 30px;
+}
+
+input{
+    height: 30px;
+    width: 150px;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(186, 183, 183);
+    transition: 0.7s;
+}
+
+
+/* ------------------------------------ */
+
+.bloco_1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+
+}
+
+.destinations_img_1{
+    width: 180px;
+    height: 230px;
+    border-radius: 15px;
+   box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.544);
+}
+
+/* .destinations_img_1:hover
+border-top: 5px solid rgba(235, 108, 108, 0.472); */
+
+.tokyo{
+    width: 180px;
+    height: 230px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.tokyo_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+.legenda_tokyo{
+    position: relative;
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.392);
+    border-radius: 0px 0px 10px 10px;
+    height: 30px;
+}
+
+.legenda_tokyo p{
+    color: white;
+    font-weight: 600;
+    margin-left: 20px;
+    padding-top: 5px;
+    
+}
+
+.destinations_img_2{
+    width: 180px;
+    height: 230px;
+    border-radius: 15px;
+   box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.544);
+}
+
+.paris{
+    width: 180px;
+    height: 230px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.paris_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+.legenda_paris{
+    position: relative;
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.392);
+    border-radius: 0px 0px 10px 10px;
+    height: 30px;
+}
+
+.legenda_paris p{
+    color: white;
+    font-weight: 600;
+    margin-left: 20px;
+    padding-top: 5px;
+    
+}
+
+.destinations_img_3{
+    width: 180px;
+    height: 230px;
+    border-radius: 15px;
+   box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.544);
+}
+
+.seoul{
+    width: 180px;
+    height: 230px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.seoul_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+.legenda_seoul{
+    position: relative;
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.392);
+    border-radius: 0px 0px 10px 10px;
+    height: 30px;
+}
+
+.legenda_seoul p{
+    color: white;
+    font-weight: 600;
+    margin-left: 20px;
+    padding-top: 5px;
+    
+}
+
+.destinations_img_4{
+    
+    width: 180px;
+    height: 230px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.544);
+    overflow: hidden;
+}
+
+ .london{
+    width: 180px;
+    height: 230px;
+    border-radius: 10px;
+    position: absolute;
+    
+    overflow: hidden;
+} 
+
+
+.london_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+
+
+
+/* .london_img:hover{
+    border: 3px solid rgba(235, 108, 108, 0.472);
+    transition: 0.9s;
+} */
+
+.legenda_london{
+    position: relative;
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.392);
+    border-radius: 0px 0px 10px 10px;
+    height: 30px;
+}
+
+.legenda_london p{
+    color: white;
+    font-weight: 600;
+    margin-left: 20px;
+    padding-top: 5px;
+    
+}
+
+
+
+.paris_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.seoul_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.london_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.img_block_destinations{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    margin-top: 30px;
+}
+
+/* -------------------------------------------- */
+
+
+.bloco_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card_1{
+    width: 230px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.407);
+    overflow: hidden
+    
+}
+
+.card_img{
+    width: 230px;
+    height: 130px;
+    overflow: hidden;
+    
+}
+
+.france_img{
+    width: 100%;
+    height: 130px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.france_img:hover{
+    transform: scale(1.3);
+    transition: 0.7s;
+}
+
+.legenda_preço_france{
+position:absolute;
+top: 100px;
+background-color: red;
+margin-left: px;
+}
+
+.legenda_preço_france p{
+    color: white;
+    font-weight: 500;
+    padding: 3px;
+    
+}
+
+.titulo{
+    margin-left: 20px;
+}
+
+.titulo p{
+    font-size: 13px;
+}
+
+
+.score_days{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    /* height: 30px; */
+}
+
+.score{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.stars i{
+    /* width: 3px; */
+    /* height: 3px; */
+    /* margin-right: 1px; */
+    font-size: 8px;
+}
+
+.link_score a{
+text-decoration: none;
+font-size: 10px;
+}
+
+.days{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.icon_clock i{
+    font-size: 10px;
+}
+
+.days p{
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.card_2{
+    width: 230px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.407);
+    overflow: hidden;
+}
+
+.switzerland_img{
+    width: 100%;
+    height: 130px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.switzerland_img:hover{
+    transform: scale(1.3);
+    transition: 0.7s;
+}
+
+.legenda_preço_switz{
+    position:absolute;
+    top: 100px;
+    background-color: red;
+    margin-left: px;
+    }
+    
+    .legenda_preço_switz p{
+        color: white;
+        font-weight: 500;
+        padding: 3px;
+        
+    }
+
+    .card_3{
+        width: 230px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.407);
+    }
+
+    .japan_img{
+        width: 100%;
+    height: 130px;
+    border-radius: 5px 5px 0px 0px;
+    }
+
+    .japan_img:hover{
+        transform: scale(1.3);
+        transition: 0.7s;
+    }
+
+    .legenda_preço_japan{
+        position:absolute;
+        top: 100px;
+        background-color: red;
+        margin-left: px;
+    }
+
+    .legenda_preço_japan p{
+        color: white;
+        font-weight: 500;
+        padding: 3px;
+        
+    }
+
+    .block_trips{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        column-gap: 90px;
+        margin-top: 30px;
+    }
+
+    /* ----------------------------------------- */
+
+    .bloco_3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .titulo_why{
+        text-align: center;
+    }
+
+    .block_vantages{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        column-gap: 30px;
+        margin-top: 30px;
+    }
+    
+    .block_icon_1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+
+    
+
+    .baloon_img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .map_img{
+        width: 230px;
+        height: 150px;
+        text-align: center;
+    }
+
+    .globe_img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .info{
+        margin-top: 20px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .info > h3{
+        margin-bottom: 10px;
+    }
+/* 
+    ----------------------------------------------- */
+
+    .ponte_img{
+        width: 100%;
+        
+    }
+/* 
+    ------------------------------------------------ */
+
+    .bloco_4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .titulo_tips{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .block_tips_img{
+        width: 280px;
+        height: 156px;
+        overflow: hidden;
+    }
+
+    .block_tips{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .block_tips_1{
+        width: 280px;
+        height: 350px;
+        border: 1px solid rgb(105, 104, 104);
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.407);
+    }
+
+    .img_tips{
+        width: 100%;
+        height: 156px;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .img_tips:hover{
+        transform: scale(1.3);
+        transition: 0.7s;
+    }
+
+    .tips_text{
+        margin: 20px;
+    }
+
+    .text_1{
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .text_2{
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+
+    .text_3{
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+
+    .block_tips_2{
+        width: 280px;
+        height: 350px;
+        border: 1px solid rgb(105, 104, 104);
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.407);
+    }
+/* 
+    ----------------------------------------------------- */
+
+    footer{
+        width: 100%;
+        height: max-content;
+        background-color: #1c3748;
+        color: white;
+        padding-bottom: 20px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .box_1{
+        width: 250px;
+    }
+
+    .box_1 p{
+        font-size: 12px;
+    }
+
+    .block-grid-footer{
+        width: 100px;
+        height: 100px;
+    }
+
+    .img-block{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    .grid-footer{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .icons{
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .icon{
+        width: 20px;
+    }
+
+    .contact-footer{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }

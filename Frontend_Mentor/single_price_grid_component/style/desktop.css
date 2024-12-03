@@ -10,6 +10,7 @@
 
     .box_1{
         box-sizing: border-box;
+        width: 700px;
     }
     main{
         width:700px;        

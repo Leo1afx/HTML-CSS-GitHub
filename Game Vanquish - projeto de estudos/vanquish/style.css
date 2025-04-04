@@ -1,0 +1,542 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: ethnocen;
+    src: url('font/ETHNOCEN.TTF');
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    max-width: 250px;
+
+}
+
+h2{
+    font-family: ethnocen;
+   
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.779);
+    position: fixed;
+    /* position: sticky;
+    top: 1000; */
+    width: 100%;
+    height: max-content;
+    /* border: 1px solid white; */
+    /* margin-bottom: 50px; */
+    z-index: 1000;
+    border-bottom: 1px solid white;
+}
+
+main{
+    height: max-content;
+    background-color: black;
+     margin-top: 110px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    column-gap: 20px;
+}
+
+.nav-list > li> a{
+    cursor: pointer;
+    padding: 5px;
+    background-image: linear-gradient( 90deg, rgb(69, 224, 69),transparent) ;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+     transition: background-size 0.2s ease-in;
+     color:  rgb(204, 202, 202);
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav-list > li> a:hover{
+    /* border-bottom: 1px solid rgb(74, 79, 102);
+    color: gray; */
+    /* background-color: white; */
+    /* padding: 5px;
+    transition: 0.5s; */  
+    transition: 0.5s;
+    color: white;
+    background-size: 100% 3px;
+   
+
+}
+
+main{
+    padding-top: 0px;
+}
+/* 
+-------------------------section 1---------------------------------- */
+.section_1{
+    
+   max-width: 100%;
+   height: 700px;
+    /* height: max-content;  */
+    background-image: url("imagens/Vanquish-13.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 1px solid white;
+    background-color: black;
+     display: flex;
+    flex-direction: row;
+    align-items: center; 
+    /* border: 1px solid red; */
+}
+
+.logos_plataforms{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* 
+-----------------------------------------------section 2--------------------------------------- */
+
+.section_2{
+    /* padding: 20px; */
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    background-image: url("imagens/file.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: center;
+    border-bottom: 1px solid white;
+   
+}
+
+.section_2 > h2{
+    text-shadow:  5px 7px black;
+    text-align: center;
+    
+   
+  }
+
+.section_2_text_video{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: max-content;
+}
+
+.section_2_text{
+    max-width: 450px;
+    
+}
+
+.section_2_text p{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  #00ce7c29;
+    font-size: 20px;
+}
+
+.background_black{
+    background-color: rgba(0, 0, 0, 0.711);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* background-color: #00ce7c;
+background-color: #00ce7c; */
+
+
+
+
+.video{
+    /* background-color: aqua; */
+    width: 560px;
+    height: 315px;
+}
+
+iframe{
+    width: 580px;
+    height: 350px;
+}
+
+
+
+
+
+
+/* ------------------------section 3----------------------------------- */
+
+.section_3{
+    /* background-color:#011936; azul*/
+    background-color: #042A2B; 
+    background-image: linear-gradient();
+    /* background-image: url("imagens/characters/---aaa11307MkyqxoP2yIy_0Ru3yr_BIMyos6HGBjZNMomrkkt_05s4_bG3K9BF2m5uHJVopBGMWWPYuQh3olmTu9g3wb9_2Ys8Z4C.webp"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed; */
+    color: white;
+    display: flex;
+    border-bottom: 1px solid white;
+  }
+
+  .section_3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    row-gap: 5px;
+}
+
+  .section_3 > h2{
+    text-shadow:  5px 7px black;
+    
+   
+  }
+
+
+
+
+.slide_info_1{
+    display: flex;
+  
+    
+
+    width: 900px;
+    height: 500px;
+   
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    box-shadow: 2px 2px 3px 5px rgba(0, 0, 0, 0.471);
+   
+    
+}
+
+.card_person{
+    display: flex;
+    width: 900px;
+    height: 500px;
+    
+}
+
+.slide_info{
+    display: flex;
+    
+     transition: .6s;
+
+}
+
+.person{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+.text_slide{
+    width: 50%;
+    background-color: #011936;
+    /* background-image: url('imagens/screenshot/SC-01_Providence_Side_View.webp') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right; */
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    border-radius: 0px 20px 20px 0px;
+   
+
+}
+
+.text_slide p{
+    /* background-color: rgba(0, 0, 0, 0.596); */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+/* 
+-------------------------------section 4---------------------------------------- */
+
+.section_4{
+    width: 100%;
+    height: 700px;
+    background-color:#042A2B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border-bottom: 1px solid white;
+    
+    
+}
+
+h2{
+    color: white;
+    text-shadow:  5px 7px black;
+}
+
+.carousel-control-prev{
+margin-left: -70px;
+}
+
+
+
+.carousel-control-next{
+    margin-right: -70px;
+}
+
+.carrousel_main{
+    max-width: 800px
+    
+}
+
+.carousel{
+    width: 100%;
+}
+
+ .carrousel_main  .carousel-item img{
+    width: 100%;
+    height: 500px;
+   
+    
+}
+
+.carousel-inner{
+    z-index: 1;
+    width: 800px;
+    height: 100%;
+}
+
+
+.d-block{
+    width: 100%;
+}
+
+/* 
+--------------------------------section 5 -------------------------------------- */
+
+
+.section_5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color:#042A2B;
+}
+
+.section_5_block{
+    /* display: flex;
+    flex-direction: row; */
+
+
+    display: grid;
+    grid-template-columns:350px 370px;
+        grid-template-rows: 1fr;
+
+    column-gap: 20px;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    background-color: rgba(255, 255, 255, 0.489);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.score_form{
+    width: 20px;
+}
+
+
+.logo_meta{
+   max-width: 80%;
+}
+
+.score_all{
+    width: 150px;
+}
+
+.score_place{
+    background-color: #ffffff;
+    width: 100%;
+    max-height: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.score_text{
+    font-size: 20px;
+}
+
+.score_text_1{
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.score_text_2{
+    font-weight: 600;
+}
+
+.score_form{
+    width: 50px;
+    height: 50px;
+    background-color:#00ce7c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 18px;
+    /* margin: 10px; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.score_form p {
+    margin: 0;
+    padding: 5px;
+}
+
+
+
+
+
+/* 
+--------------------------------footer---------------------------------------- */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  border-top: 1px solid gray;
+
+  background-color: black;
+  width: 100%;
+  color:  white;
+  padding: 20px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+
+}
+
+
+.sega_logo{
+    max-width: 120px;
+}
+
+.platinum_logo{
+    max-width: 150px;
+}
+
+.footer_img{
+
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons-social-media{
+    width: max-content;
+    
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    width: 200px;
+    color: white;
+    padding: 5px;
+    
+   
+}
+
+.icons-social-media > a > i{
+    color: white;
+    
+}
+
+ .icons-social-media > a > i:hover{
+    color: rgb(69, 224, 69);
+    transition: 0.7s;
+    transform: scale(1.2);
+} 
+
+i{
+   font-size: 30px;
+   color: white;
+  
+}
+
+/* i:hover{
+    color: rgb(69, 224, 69);
+    transition: 0.9s;
+   
+} */
+

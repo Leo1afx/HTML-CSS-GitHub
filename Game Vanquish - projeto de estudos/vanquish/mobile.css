@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+
+
+@media screen and (max-width: 768px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        width: 100vw;
+        height: 100%;
+
+       display: flex;
+       flex-direction: column;
+       
+
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* width: 360px; */
+        width: 100%;
+       
+    }
+
+    ul{
+        column-gap: 5px;
+    }
+
+    .nav-list{
+        width: 350px;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-list > li> a{
+        font-size: 14px;
+        
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        column-gap: 5px;
+    }
+    /* section{
+        max-width: 100%;
+      height: 400px;
+
+      /* background-image: url("imagens/Vanquish-13.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: black;
+    } */
+    main{
+        padding-top: 100px;
+    }
+    .section_1{
+        width: 100%;
+        max-height: 250px;
+        background-image: url("imagens/Vanquish-13.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: 100% 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        align-items: baseline;
+         padding: 10px;
+        
+    }
+
+    .score{
+       width:  40%;
+       margin-top: 30px;
+
+
+    }
+
+    .score_place{
+        height: max-content;
+    }
+
+    .score_place p{
+        font-size: 5px;
+    }
+
+    .score_text{
+        font-size: 13px;
+    }
+
+    .score_form{
+        width: 30px;
+        height: 30px;
+    }
+
+    .score_form p{
+        font-size: 15px;
+    }
+
+    footer{
+        height: max-content;
+    }
+
+/* 
+    ---------------------------section 2------------------------------- */
+
+    .section_2{
+        height: max-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .section_2_text_video{
+        display: flex;
+        flex-direction: column;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    .video{
+        width: 100%;
+        height: max-content;
+    }
+
+/* 
+    ---------------------section 3----------------- */
+
+
+    .section_3{
+        width: 100%;
+        height: 900px;
+        padding-bottom: 20px;
+    }
+
+    .slide_info_1{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+  .card_person{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    height: 800px;
+    /* border-radius: 20px 20px 0px 0px ; */
+  }
+
+  .person{
+    border-radius: 20px 20px 0px 0px ;
+    width: 100%;
+    /* height: 800px; */
+    /* height: 100%; */
+    height: 400px;
+  }
+
+  .text_slide{
+    width: 100%;
+   height: 100%;
+    
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    /* align-items: stretch; */
+  }
+
+  .text_slide > h3{
+    text-align: center;
+  }
+
+
+/* 
+  ------------------section 4---------------- */  
+
+  .section_4{
+    height: max-content;
+    padding: 10px;
+  }
+
+  .section_4 .carousel-inner .carousel-item img{
+    width: 350px;
+    height: 200px;
+  }
+
+
+  .carousel-control-prev{
+    margin-left: 0px;
+    }
+    
+    
+    
+    .carousel-control-next{
+        margin-right: 0px;
+    }
+
+/* 
+  ------------------section 5---------------- */
+
+  .section_5{
+    width: 100%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .section_5_block{
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 1fr 1fr;
+    /* align-items: center;
+    justify-content: center; */
+    row-gap: 20px; 
+}
+
+
+.section_5_metacritic{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score{
+    width: 90%;
+}
+
+.score_text p{
+  font-size: 15px;
+}
+
+.score_form{
+    width: 40px;
+    height: 40px;
+}
+
+.score_form p{
+    font-size: 18px;
+}
+
+
+/* 
+.carousel-item img{
+width: 350px;
+height: 200px;
+} */
+
+/* 
+-------------------------------footer------------------------------ */
+
+    .footer_img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+        column-gap: 50px;
+    row-gap: 10px;
+    
+    }
+
+    .icons-social-media{
+        width: 100%;
+    }
+
+
+}
